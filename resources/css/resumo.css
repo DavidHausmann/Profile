@@ -1,0 +1,27 @@
+.section-resumo {
+    background: #FFFFFF;
+    margin: 40px auto 10px;
+    width: 100%;
+}
+
+/* Page Header */
+.page-header-resumo {
+    padding: 0 40px;
+	max-width: 960px;
+	margin: auto;
+    }
+    .page-header-resumo h2 {
+        line-height: 0.88rem;
+		text-align: center;
+		padding: 1em;
+		border-top: 4px solid #ccc;
+        }
+
+.descricao-resumo {
+	padding: 5em 10em;
+	font-size: 0.9em;
+	font-weight: 300;
+}
+	.descricao-resumo p{
+		display: block;
+	}

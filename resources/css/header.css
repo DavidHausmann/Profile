@@ -1,0 +1,63 @@
+.row {
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+header {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;	
+}
+
+.informacoes-CV {
+	width: 1140px;
+}
+
+.imagem-logo {
+	flex: 0 0 50%;
+}
+.logo {
+	height: 180px;
+	border-radius: 50%;
+	margin: 2em 0 2em 30%;
+}
+
+.logo-black { 
+	display: none;
+	height: 50px;
+	width: auto;
+	float: left;
+	margin: 5px 0;
+}
+
+.main-nav {
+	float: right;
+	list-style: none;
+	margin-top: 55px;
+}
+
+.nome-CV {
+	color: #fff;
+	margin: 4rem 30% 0 0;
+	flex: 0 0 1;
+	text-align: right;
+}
+	.titulacao-CV{
+		font-size: 1.5rem;
+		color: #fff;
+		margin: 0 30% 0 0;
+		flex: 0 0 1;
+		text-align: right;
+	}
+		.localidade-CV{
+			font-size: 1rem;
+			color: #fff;
+			margin: 0 30% 0 0;
+			flex: 0 0 1;
+			text-align: right;
+		}

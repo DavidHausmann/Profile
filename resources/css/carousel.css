@@ -1,0 +1,101 @@
+/* Global */
+body {
+    background: #ffffff;
+}  
+
+img { max-width:100%; }
+
+a {
+	-webkit-transition: all 150ms ease;
+	-moz-transition: all 150ms ease;
+	-ms-transition: all 150ms ease;
+	-o-transition: all 150ms ease;
+	transition: all 150ms ease; 
+	}
+    a:hover {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+        filter: alpha(opacity=50); /* IE7 */
+        opacity: 0.6;
+        text-decoration: none;
+    }
+
+.section-certificados {
+	width: 100%;
+	background: #f7efef;
+}
+/* Container */
+.container-fluid {
+    background: #f7efef;
+    margin: 40px auto 10px;
+    padding: 20px 40px 0;
+    max-width: 960px;
+}
+
+
+/* Page Header */
+.page-header {
+    background: #f7efef;
+    margin: -1.15em -40px 40px;
+    padding: 20px 40px;
+    }
+    .page-header h3 {
+        line-height: 0.88rem;
+        padding: 1em;
+		border-top: 4px solid #ccc;
+		font-size: 2rem;
+		text-align: center;
+        }
+
+
+
+/* Thumbnail Box */
+.thumbnail {
+	border: none;
+	display: flex;
+	justify-content: center;
+}
+	.caption h3{
+		font-size: 1.5rem;
+		text-align: left;
+	}
+		.caption h4 {
+			font-size: 1rem;
+		}
+			.caption p {
+				font-size: 0.8rem;
+			}
+				.btn.btn-mini {
+					font-size: 0.8rem;
+				}
+
+/* Carousel Control */
+.control-box {
+    text-align: right;
+    width: 100%;
+    }
+    .carousel-control{
+        background: #666;
+        border: 0px;
+        border-radius: 0px;
+        display: inline-block;
+        font-size: 34px;
+        font-weight: 200;
+        line-height: 18px;
+        opacity: 0.5;
+        padding: 4px 10px 0px;
+        position: static;
+        height: 30px;
+        width: 15px;
+        }
+
+/* Mobile Only */
+@media (max-width: 767px) {
+    .page-header, .control-box {
+    text-align: center;
+    } 
+}
+@media (max-width: 479px) {
+    .caption {
+    word-break: break-all;
+    }
+}
