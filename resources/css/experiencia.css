@@ -28,6 +28,10 @@
 		font-size: 1.2rem;
 		margin: 0;
 	}
+	.descricao-experiencia h4 {
+		font-size: 1rem;
+		margin-bottom: 1rem;
+	}
 		.descricao-experiencia:last-child{
 			border: none;
 		}
